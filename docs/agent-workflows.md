@@ -2,6 +2,8 @@
 
 This guide is for coding agents and teams using them to install, configure, or extend Sterling. It is intentionally procedural: use it as a checklist, not as permission to invent editorial or data decisions.
 
+For a compact working consumer, see the [deployed smoke test](https://lamatemaga.github.io/sterling-install-smoke/) and its [source](https://github.com/LaMatemaga/sterling-install-smoke). It imports the published package rather than Sterling’s originating website.
+
 ## 1. Implement a figure in an existing site
 
 ### Gather the contract

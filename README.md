@@ -43,6 +43,7 @@ Sterling intentionally does **not** include La Matemaga’s original datasets, s
 
 - [**Sterling: a palette for data with a voice of its own**](https://www.lamatemaga.com/en/blog/sterling-una-paleta-para-datos-con-voz-propia) is the construction chronicle: why the system exists, how its editorial and statistical decisions were made, and what it means to publish data stories that are shareable, traceable, and worth revisiting.
 - [**The live visualization catalog**](https://www.lamatemaga.com/en/sterling#catalog) lets you explore Sterling’s current chart species in context. It is the visual reference for the system; this README remains the source for installation and implementation details.
+- [**The deployed consumer smoke test**](https://lamatemaga.github.io/sterling-install-smoke/) is a minimal Vite report that imports the published package, renders all 150 iris observations, and switches the whole report among Sterling, Tableau, Power BI, Matplotlib, and Base R themes. Its [source](https://github.com/LaMatemaga/sterling-install-smoke) is intentionally small enough to copy as an installation reference.
 
 ## Installation
 
