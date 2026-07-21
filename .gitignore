@@ -1,0 +1,12 @@
+node_modules/
+dist/
+*.tsbuildinfo
+__pycache__/
+.DS_Store
+.maintainer/
+MAINTAINER.md
+assets/sterling-banner.svg
+assets/demo
+appshot-video/
+.agents/
+.appshot-template/

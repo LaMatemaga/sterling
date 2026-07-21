@@ -1,0 +1,27 @@
+/*
+ * Optional complete Sterling typographic treatment.
+ *
+ * Import this after `@lamatemaga/sterling/styles.css` when a project wants
+ * Sterling's Fraunces + JetBrains Mono pairing. The base stylesheet stays
+ * font-neutral so it can inherit a consuming publication's own type system.
+ */
+@font-face {
+  font-family: "Sterling Fraunces";
+  src: url("../assets/fonts/Fraunces-SemiBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Sterling JetBrains Mono";
+  src: url("../assets/fonts/JetBrainsMono-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+.sterling-figure {
+  --sterling-font-display: "Sterling Fraunces", Georgia, serif;
+  --sterling-font-mono: "Sterling JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}

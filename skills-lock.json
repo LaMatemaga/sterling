@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "skills": {
+    "appshot-core": {
+      "source": "trunghaiy/appshot",
+      "sourceType": "github",
+      "skillPath": "skills/appshot-core/SKILL.md",
+      "computedHash": "572b58678f09db1099fff0321226cf8926f8a90c5fbb3b0d346dd1791dea28a6"
+    },
+    "appshot-images": {
+      "source": "trunghaiy/appshot",
+      "sourceType": "github",
+      "skillPath": "skills/appshot-images/SKILL.md",
+      "computedHash": "0c36f58c0f3af4d5df649db2787c93e0795af1032d5d7cec7b32365e597bd605"
+    },
+    "appshot-videos": {
+      "source": "trunghaiy/appshot",
+      "sourceType": "github",
+      "skillPath": "skills/appshot-videos/SKILL.md",
+      "computedHash": "b013780cac8bbbe675ad19966223912d88414e15d4204ed2ad337998d7528e8a"
+    },
+    "appshot-web-videos": {
+      "source": "trunghaiy/appshot",
+      "sourceType": "github",
+      "skillPath": "skills/appshot-web-videos/SKILL.md",
+      "computedHash": "2b650d8e9bae6b239c46a969e77e23354c0392499194873330910f5e8c7ca862"
+    }
+  }
+}
