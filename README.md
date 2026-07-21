@@ -37,6 +37,8 @@ The name is associated with *little star* and with the standard of precious meta
 
 Sterling intentionally does **not** include La Matemaga’s original datasets, site pages, images, or visual examples. It is the reusable library layer only.
 
+> **Using an AI coding agent?** Start with [`AGENTS.md`](./AGENTS.md). It gives agents an editorial/data contract, the questions to ask before generating a figure, configuration rules, and a reproducible export workflow for slide-deck assets.
+
 ## Read the story, explore the system
 
 - [**Sterling: a palette for data with a voice of its own**](https://www.lamatemaga.com/en/blog/sterling-una-paleta-para-datos-con-voz-propia) is the construction chronicle: why the system exists, how its editorial and statistical decisions were made, and what it means to publish data stories that are shareable, traceable, and worth revisiting.
