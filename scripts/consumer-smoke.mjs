@@ -52,7 +52,10 @@ try {
     },
   }, null, 2));
 
-  npmCommand(["install", "--ignore-scripts", "--package-lock=false", "--offline"], consumerDir);
+  // This consumer intentionally resolves Sterling's runtime dependencies as a
+  // fresh install would. Do not force --offline: GitHub's restored npm cache
+  // may contain package tarballs without every registry metadata response.
+  npmCommand(["install", "--ignore-scripts", "--package-lock=false", "--no-audit", "--no-fund"], consumerDir);
 
   const installed = path.join(consumerDir, "node_modules", "@lamatemaga", "sterling");
   assert.ok(existsSync(path.join(installed, "dist", "index.mjs")), "missing client ESM entry");
