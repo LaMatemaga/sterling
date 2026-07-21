@@ -300,6 +300,13 @@ Sterling is designed to grow in the open. Contributions are welcome, especially 
 
 Use the [feature request form](https://github.com/LaMatemaga/sterling/issues/new?template=feature-request.yml) to propose a component or capability. Bring the reading task, a public or synthetic data shape, accessibility considerations, and success criteria; a sketch or reference is welcome. For a pull request, keep the data transformation explicit, add a focused fixture, maintain the shared opacity/outline tokens, and document any new public prop. See [CONTRIBUTING.md](./CONTRIBUTING.md) for the full guide.
 
+## Community and security
+
+- Read [CONTRIBUTING.md](./CONTRIBUTING.md) before opening a pull request.
+- Use the [feature request form](https://github.com/LaMatemaga/sterling/issues/new?template=feature-request.yml) for a component or capability, or the [bug report form](https://github.com/LaMatemaga/sterling/issues/new?template=bug-report.yml) for reproducible behavior that differs from the documented contract.
+- Contributions follow the [Code of Conduct](./CODE_OF_CONDUCT.md).
+- Report vulnerabilities through [private vulnerability reporting](https://github.com/LaMatemaga/sterling/security/advisories/new), not in a public issue. See [SECURITY.md](./SECURITY.md).
+
 ## License
 
 Sterling is licensed under the [MIT License](./LICENSE).

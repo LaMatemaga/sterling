@@ -1,0 +1,61 @@
+name: Bug report
+description: Report reproducible behavior that differs from Sterling's documented contract.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not include secrets, private datasets, or security vulnerabilities here. Use private vulnerability reporting for security concerns.
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+      description: Describe the observed behavior and the documented or expected behavior.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Minimal reproduction
+      description: Provide a small public or synthetic dataset, code snippet, or repository link. Do not attach private data.
+      placeholder: |
+        1. Render <SterlingFigure ...>
+        2. Open the figure in dark mode
+        3. Observe ...
+    validations:
+      required: true
+
+  - type: input
+    id: sterling-version
+    attributes:
+      label: Sterling version
+      placeholder: 0.1.0
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Include framework, React version, browser, operating system, and whether the issue appears in light, dark, or print mode.
+      placeholder: Next.js 15, React 19, Chrome 136, macOS 15, dark mode
+    validations:
+      required: true
+
+  - type: textarea
+    id: accessibility
+    attributes:
+      label: Accessibility or export impact (optional)
+      description: Note any impact on alternative text, keyboard behavior, contrast, CSV export, PNG export, or sharing.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Report checks
+      options:
+        - label: I searched existing issues and checked the current documentation.
+          required: true
+        - label: This is not a security vulnerability and does not contain private data.
+          required: true

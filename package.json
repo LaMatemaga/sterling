@@ -16,7 +16,7 @@
     "node": ">=18.18"
   },
   "sideEffects": ["./dist/styles.css", "./dist/editorial.css"],
-  "files": ["dist", "assets"],
+  "files": ["dist", "assets/fonts"],
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -33,7 +33,7 @@
     },
     "./styles.css": "./dist/styles.css",
     "./editorial.css": "./dist/editorial.css",
-    "./assets/*": "./assets/*"
+    "./assets/fonts/*": "./assets/fonts/*"
   },
   "scripts": {
     "build": "tsup --config tsup.config.ts && copyfiles -u 1 src/styles.css src/editorial.css dist",
