@@ -295,7 +295,7 @@ Sterling is designed to grow in the open. Contributions are welcome, especially 
 - A first-class scale selector: categorical, sequential, diverging, and neutral-with-highlight modes.
 - A neutral-scale/highlight API for calling out an interval, region, or observation without turning the entire chart categorical.
 - More accessible descriptions, keyboard affordances, and export test coverage.
-- A visual regression suite for light, dark, and print surfaces.
+- A visual regression suite for light, dark, and print surfaces, beginning with five high-risk specimens (violin, correlogram, heatmap, scatterplot, and exported figure) across the three modes.
 - Framework adapters and downloadable palette artifacts for R, Python, Julia, and other visualization ecosystems. These are explicitly **future work**, not part of this initial package.
 
 Use the [feature request form](https://github.com/LaMatemaga/sterling/issues/new?template=feature-request.yml) to propose a component or capability. Bring the reading task, a public or synthetic data shape, accessibility considerations, and success criteria; a sketch or reference is welcome. For a pull request, keep the data transformation explicit, add a focused fixture, maintain the shared opacity/outline tokens, and document any new public prop. See [CONTRIBUTING.md](./CONTRIBUTING.md) for the full guide.
