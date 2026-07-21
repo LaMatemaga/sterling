@@ -2,9 +2,19 @@
 
 Sterling is a shared visual language for data stories. Contributions are welcome when they make the package more useful without weakening its editorial clarity, data integrity, or accessibility.
 
-## Before opening an issue
+## Request a component or feature
 
-Describe the reading task, the proposed chart or feature, the expected data shape, and the accessibility implications. A small sketch, a reproducible dataset, or a link to a public source is especially helpful.
+Use the [feature request form](https://github.com/LaMatemaga/sterling/issues/new?template=feature-request.yml) for a new chart primitive, figure behavior, export, palette option, or documentation improvement. You do not need to propose an implementation. The most useful requests explain the problem that a reader or author is trying to solve.
+
+Please include:
+
+1. **Reading task:** the question, comparison, distribution, relationship, or workflow the addition should make easier.
+2. **Proposed scope:** whether this is a new visualization, an improvement to an existing primitive, a figure-shell feature, an export, or a palette/configuration option.
+3. **Data contract:** a small public or synthetic example, the expected row/object shape, and any transformation needed before the component receives it. Never attach private data.
+4. **Editorial and accessibility considerations:** labels, source treatment, the role of colour, alternative cues, and the light/dark/print behavior that matters.
+5. **Success criteria:** what someone should be able to read, publish, export, or verify once the feature exists.
+
+A sketch, reference image, reproducible dataset, or link to a public source is especially helpful. The [live visualization catalog](https://www.lamatemaga.com/en/sterling#catalog) is the best place to check whether a similar primitive already exists.
 
 ## Development
 

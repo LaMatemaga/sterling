@@ -1,0 +1,76 @@
+name: Feature request
+description: Propose a Sterling component, capability, or documentation improvement.
+title: "[Feature]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping Sterling grow. Describe the reading task first; an implementation idea is optional.
+
+  - type: dropdown
+    id: scope
+    attributes:
+      label: What are you proposing?
+      options:
+        - A new visualization primitive
+        - An improvement to an existing visualization
+        - Figure shell, caption, or export behavior
+        - Palette, scale, or theme configuration
+        - Documentation or developer experience
+        - Something else
+    validations:
+      required: true
+
+  - type: textarea
+    id: reading-task
+    attributes:
+      label: Reading task
+      description: What should a reader, author, or downstream system be able to understand or do more easily?
+      placeholder: Compare category distributions while keeping quartiles and outliers legible in a blog post.
+    validations:
+      required: true
+
+  - type: textarea
+    id: data-contract
+    attributes:
+      label: Data contract
+      description: Show a small public or synthetic data example and describe the expected shape. Do not include private data.
+      placeholder: |
+        rows: Array<{ group: string; value: number }>
+        Transformation: values are already numeric and missing rows are removed upstream.
+    validations:
+      required: true
+
+  - type: textarea
+    id: editorial-accessibility
+    attributes:
+      label: Editorial and accessibility considerations
+      description: Explain labels, source/credit needs, colour use, redundant cues, and any light/dark/print behavior that matters.
+      placeholder: Categories should be readable without colour alone; the inline legend should carry text and shape.
+    validations:
+      required: true
+
+  - type: textarea
+    id: success
+    attributes:
+      label: Success criteria
+      description: What would make this request complete and useful?
+      placeholder: An author can render the figure in MDX, export its processed CSV, and preserve the same reading hierarchy in light and dark modes.
+    validations:
+      required: true
+
+  - type: textarea
+    id: references
+    attributes:
+      label: References or sketches (optional)
+      description: Add a link to a public dataset, reference image, notebook, or the relevant existing Sterling specimen.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Contribution checks
+      options:
+        - label: I checked the live visualization catalog and this is not already covered by an existing primitive.
+          required: true
+        - label: I am not attaching private or restricted data.
+          required: true

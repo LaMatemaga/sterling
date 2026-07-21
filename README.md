@@ -296,7 +296,7 @@ Sterling is designed to grow in the open. Contributions are welcome, especially 
 - A visual regression suite for light, dark, and print surfaces.
 - Framework adapters and downloadable palette artifacts for R, Python, Julia, and other visualization ecosystems. These are explicitly **future work**, not part of this initial package.
 
-Open an issue with the reading task, chart type, source-data shape, accessibility considerations, and an image or sketch when possible. For a pull request, keep the data transformation explicit, add a focused fixture, maintain the shared opacity/outline tokens, and document any new public prop.
+Use the [feature request form](https://github.com/LaMatemaga/sterling/issues/new?template=feature-request.yml) to propose a component or capability. Bring the reading task, a public or synthetic data shape, accessibility considerations, and success criteria; a sketch or reference is welcome. For a pull request, keep the data transformation explicit, add a focused fixture, maintain the shared opacity/outline tokens, and document any new public prop. See [CONTRIBUTING.md](./CONTRIBUTING.md) for the full guide.
 
 ## License
 
